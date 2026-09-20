@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Tracker Login</title>
+  </head>
+  <body>
+    <div class="login-container">
+      <h1>Login</h1>
+      <form id="login-form">
+        <label for="login-email">Email:</label>
+        <input type="text" id="login-email" name="email" data-testid="input-email" required />
+        <label for="login-password">Password:</label>
+        <input
+          type="password"
+          id="login-password"
+          name="password"
+          data-testid="input-password"
+          required
+          autocomplete="current-password"
+        />
+        <button type="submit" data-testid="btn-submit-login">Login</button>
+      </form>
+    </div>
+  </body>
+</html>
