@@ -1,13 +1,3 @@
-/* ============================================================
- * Sesiunea 2: CSS & DOM Selectors
- * ============================================================
- * Completează fișierul cu regulile CSS conform cerințelor:
- * 1. Meniu Flexibil: Stilizare pentru clasa .navbar (Flexbox) și #logo
- * 2. Stări Dinamice: Selectori pentru :hover (butoane active) și :disabled (butoane inactive)
- * 3. Selectori Structurali: Stilizare pentru al 3-lea rând (tr:nth-child(3)) și .delete-row
- * ============================================================ */
-
-/* Scrie regulile CSS aici: */
 body {
   background-color: #ECF0F1;
   color: #2C3E50;
